@@ -1,0 +1,61 @@
+.home {
+    display: flex;
+    margin: 10px 5% 0 5%;
+}
+
+.home .wrapOnFilterBlock {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.home .wrapOnRests {
+    width: 70%;
+}
+
+.home .restautant {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 350px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.home .restaurant__foto {
+    /* height: 100%; */
+    width: 40%;
+    background-color: cadetblue
+}
+
+.home .restaurant__foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home .restaurant__info {
+    padding-left: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.address_time {
+    color: rgb(136, 133, 133);
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.home .text_booking_info {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.home .restaurant__name {
+    font-size: 36px;
+}

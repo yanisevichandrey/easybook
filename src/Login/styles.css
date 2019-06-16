@@ -1,0 +1,53 @@
+.login {
+    height: 60vh;
+    width: 1002px;
+    border: 1px solid #ccc;
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+
+.login .wrapOnTabs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.login .tab {
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 20px;
+    height: 100%;
+    line-height: 50px;
+    border-bottom: 2px solid #2046c7;
+}
+
+.login .wrapOnFields {
+    width: 60%;
+    margin: auto;
+}
+
+.login .input {
+    width: 100%;
+}
+
+.login .select {
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    color: #fff;
+    border: 2px solid #2046c7;
+    background-color: #2046c7;
+    font-size: 24px;
+    padding: 10px;
+    transition: .3s;
+    cursor: pointer;
+    border-radius: 3px;
+}

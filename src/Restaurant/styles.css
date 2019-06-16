@@ -1,0 +1,52 @@
+.restaurant {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    overflow: hidden;
+}
+
+.restaurant .foto {
+    width: 30%;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+.restaurant .foto img {
+    width: 100%;
+}
+
+.restaurant .restaurant__info {
+    margin-left: 30px;
+    overflow: hidden;
+    text-align: left;
+    width: 60%;
+}
+
+.restaurant .text_booking_info {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.restaurant .description {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.restaurant .booking {
+    padding: 10px 20px;
+    background-color: #1c4a86;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.restaurant .booking:hover {
+    background-color: #163661;
+}
+
+.react-datetime-picker {
+    width: 100%
+}
